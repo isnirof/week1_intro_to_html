@@ -1,0 +1,58 @@
+<!doctype html>
+
+<header>
+  <h1> Buat Account Baru!</h1>
+</header>
+
+<form action="welcome.html">
+  <h2> Sign Up Form</h2>
+  
+  <label for="first-name">First name:</label> <br>
+  <input type="text" name="first-name" id="first-name" required><br>
+  
+  <br>
+  <label for="last-name">Last name:</label><br>
+  <input type="text" name="last-name" id="last-name" required><br>
+  
+  <br>
+  <section class="gender">
+    <p>Gender:</p>
+    <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="Male"><br>
+    <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="Female"><br>
+    <label for="other">Others</label>
+      <input type="radio" name="gender" id="other" value="Others"><br>
+  </section>
+
+  <br>
+
+  <label for="nationality">Nationality:</label>
+  <select id="nationality" name="nationality">
+    <option value="malaysian">Malaysian</option>
+    <option value="indonesian">Indonesian</option>
+    <option value="others">Others</option>
+  </select>
+  
+  <br>
+  <section class="language">
+    <p>Language Spoken</p>
+    <label for="indo">Bahasa Indonesia</label>
+      <input type="checkbox" id="indo" name="language" value="Bahasa Indonesia" style="text-align:right;" ><br>
+    <label for="eng">English</label>  
+      <input type="checkbox" id="eng" name="language" value="English"style="text-align:center;"><br>
+    <label for="oth">Others</label>  
+      <input type="checkbox" id="oth" name="language" value="Others" style="text-align:right;"><br>
+</section>
+
+  <br>
+  <label for="bio">Bio:</label><br>
+  <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+  
+<br>
+<section class="sign_up">
+  <label for="sign_up">
+  </label>
+  <input type="submit" value="Sign Up">
+</section>
+</form>
